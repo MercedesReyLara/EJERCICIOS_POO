@@ -26,3 +26,5 @@ fun eliminarSiPar(numeros:List<Int>):List<Int>{
     for(numero in numeros){if(!esPar(numero)){resultado.add(numero)}//COMPROBAMOS SI LA FUNCION DA FALSE ENTONCES AÑADIMOS
         return resultado//NOS RETORNA UNA LISTA CON NUMEROS IMPARES UNICAMENTE
 }
+
+//HOLA QUE TAL
