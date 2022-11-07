@@ -28,7 +28,7 @@ fun main(args: Array<String>) {
     Prueba interfaz punto
      */
 
-    val persona1=Persona.Alumno("Mercedes","Rey Lara","Alumno")
+    /*val persona1=Persona.Alumno("Mercedes","Rey Lara","Alumno")
     var persona2=Persona.Empleado("David","Sanchez Perez","Empleado",500F)
     persona1.imprimirDatos()
     persona1.saludar()
@@ -36,5 +36,12 @@ fun main(args: Array<String>) {
 
     persona2.imprimirDatos()
     persona2.saludar()
-    persona2.tipoPersona()
+    persona2.tipoPersona()*/
+
+    /*var puntos=Punto2.PuntoPlano(2,5)
+    puntos.imprimir()
+    puntos.cambiarPunto()*/
+    val alumno1=Alumno("Mercedes",8)
+    if(alumno1.saberSi(::aprobadoExamen)) println("Ha aprobado")
+    if(alumno1.saberSi(::mayorNota))println("Tiene un 10")
 }
